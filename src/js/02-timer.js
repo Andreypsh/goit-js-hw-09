@@ -56,6 +56,7 @@ function convertMs(ms) {
 function addLeadingZero(value) {
   return String(value).padStart(2, 0);
 }
+let timerId = null;
 
 elements.startBtn.addEventListener('click', onStartTimer);
 
